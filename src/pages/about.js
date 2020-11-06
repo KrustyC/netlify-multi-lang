@@ -1,12 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-const Home = () => {
-  const { t } = useTranslation("home");
-  console.log("home", t);
+const About = () => {
+  const { t } = useTranslation("about");
+
   return (
     <div>
-      HOME
+      ABOUT
       <br />
       <h2>{t("heading")}</h2>
       <p>{t("description")}</p>
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;

@@ -1,10 +1,9 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+// const languages = require("./src/data/languages");
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
-}
+  siteMetadata: {
+    title: `Gatsby Default Starter`,
+    languages: ["it", "en"],
+  },
+  plugins: [`gatsby-plugin-react-helmet`],
+};
